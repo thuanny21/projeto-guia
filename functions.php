@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 <?php
 // Register Custom Navigation Walker
 require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';

@@ -35,4 +35,4 @@ register_nav_menus(
     'meu_menu' => __( 'Menu Principal','meu-text-domain' )
   )
 );
->>>>>>> parent of 7da34bd... cod
+

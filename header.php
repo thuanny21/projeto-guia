@@ -1,29 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title> Tema Guia</title>
-
-	<?php echo get_stylesheet_directory_uri(); ?>
-
-
-
-	<?php wp_head(); ?>
-</head>
-<body>
-	
-<!DOCTYPE html>
 <html lang="pt-br">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title><?php bloginfo('name'); ?><?php wp_title('_'); ?> <?php the_field('title_seo'); ?></title>
-	<meta name="description" content="<?php bloginfo('name'); ?><?php wp_title('_'); ?> <?php the_field('description_seo'); ?>"/>
-	<meta property="og:type" content="website"/>
-	<meta property="og:title" content="<?php bloginfo('name'); ?><?php wp_title('_'); ?> <?php the_field('title_seo'); ?>"/>
-	<meta property="og:description" content="<?php bloginfo('name'); ?><?php wp_title('_'); ?> <?php the_field('description_seo'); ?>"/>
-	<meta property="og:url" content="<?php bloginfo('url'); ?>"/>
-	<meta property="og:image" content="<?php echo get_stylesheet_uri(); ?>/img/og-image.png">
+	<title></title>
+	
 
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- Bootstrap CSS -->
@@ -42,21 +23,9 @@
 
 	<!-- Navigation -->
 	<div class="fixed-top">
-		<header class="topbar">
-			<div class="container">
-				<div class="row">
-					<!-- social icon-->
-					<div class="col-sm-12">
-						<ul class="social-network">
-						<?php include(TEMPLATEPATH . "/inc/redes-sociais.php"); ?>
-					</ul>
-					</div>
-				</div>
-			</div>
-		</header>
 		<nav class="nav navbar navbar-expand-lg navbar-light bg-danger text-light py-3 main-nav">
 			<div class="container">
-				<a class="navbar-brand" href="index.html"><img class="logo" src="<?php the_field('imagem_logo'); ?>" alt="Logo"></a>
+				<a class="navbar-brand" href="index.html"><img class="logo" src="" alt="Logo"></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon "></span>
 				</button>

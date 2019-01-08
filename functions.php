@@ -15,18 +15,13 @@ add_action('after_setup_theme','add_suport_theme');
 ***************************/
 add_theme_support('menus');
 
-/***************************
-* Scripts / CSS
-****************************/
-function daviwp_scripts() {
-  // Carregando CSS header
-  wp_enqueue_style( 'foundation', get_template_directory_uri() . '/assets/css/foundation.min.css' );
- 
-  wp_enqueue_style( 'style', get_stylesheet_uri() . '/css/style.css');
+/********** SCRIPTS / CSS ************/
 
-
+function thuanny_scripts(){
+	wp_enqueue_style( 'style', get_template_directory_uri() . '/css/style.css');
+	
 }
-add_action( 'wp_enqueue_scripts', 'daviwp_scripts' );
+add_action( 'wp_enqueue_scripts', 'thuanny_scripts' );
 
 
 /*********** REGISTRO UM MENU ************************/
